@@ -1,0 +1,162 @@
+[
+  {
+    "id": "15e330f4-8a99-405e-b788-c8b104e613a7",
+    "email": "bertha.gonzales@example.com",
+    "name": { "first": "Bertha", "last": "Gonzales" },
+    "phone": "(294)-026-4384",
+    "hoursStudied": 622,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "7d4e828e-4b9c-4133-ae66-cdfc4205ed5c",
+    "email": "patsy.freeman@example.com",
+    "name": { "first": "Patsy", "last": "Freeman" },
+    "phone": "(010)-351-2087",
+    "hoursStudied": 448,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "c96ff270-73ab-4202-9591-30dcd90629a6",
+    "email": "bruce.alexander@example.com",
+    "name": { "first": "Bruce", "last": "Alexander" },
+    "phone": "(789)-370-9954",
+    "hoursStudied": 411,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "5aa38bb4-b971-403e-bf40-8f6559d2ce58",
+    "email": "loretta.wilson@example.com",
+    "name": { "first": "Loretta", "last": "Wilson" },
+    "phone": "(328)-638-4227",
+    "hoursStudied": 610,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "8bde6b0f-f871-41fc-8e9c-469080b1e536",
+    "email": "kristina.ryan@example.com",
+    "name": { "first": "Kristina", "last": "Ryan" },
+    "phone": "(961)-658-1993",
+    "hoursStudied": 835,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "fabc962b-ed68-47f5-85df-a12854da6e73",
+    "email": "ted.castro@example.com",
+    "name": { "first": "Ted", "last": "Castro" },
+    "phone": "(130)-969-5980",
+    "hoursStudied": 239,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "60256906-51b9-4c0f-a323-488c032f4da2",
+    "email": "barry.lucas@example.com",
+    "name": { "first": "Barry", "last": "Lucas" },
+    "phone": "(210)-197-5640",
+    "hoursStudied": 283,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "39fc41cd-280c-4ea3-a9d2-ff5db8dc7f95",
+    "email": "peyton.hudson@example.com",
+    "name": { "first": "Peyton", "last": "Hudson" },
+    "phone": "(887)-342-2867",
+    "hoursStudied": 474,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "7c67dd44-14e2-4b9c-aa66-55f72604520a",
+    "email": "crystal.chavez@example.com",
+    "name": { "first": "Crystal", "last": "Chavez" },
+    "phone": "(214)-104-3614",
+    "hoursStudied": 205,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "251f9f8f-d130-463b-9f5c-f8389b27bb57",
+    "email": "clara.williams@example.com",
+    "name": { "first": "Clara", "last": "Williams" },
+    "phone": "(829)-630-3502",
+    "hoursStudied": 136,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "3f0259a3-e195-40a0-925a-d13211fb8a60",
+    "email": "ken.pena@example.com",
+    "name": { "first": "Ken", "last": "Pena" },
+    "phone": "(149)-513-4185",
+    "hoursStudied": 185,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "7d49eb0b-75a1-45d4-b7ed-c640c2a2a8cf",
+    "email": "peyton.vasquez@example.com",
+    "name": { "first": "Peyton", "last": "Vasquez" },
+    "phone": "(999)-248-8395",
+    "hoursStudied": 860,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "6ce3a9d7-37de-4b67-b3da-c1cd2869f9a4",
+    "email": "pearl.mendoza@example.com",
+    "name": { "first": "Pearl", "last": "Mendoza" },
+    "phone": "(080)-159-3166",
+    "hoursStudied": 41,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "8ead291b-3215-4f30-bcd3-8df7006192f2",
+    "email": "amy.gardner@example.com",
+    "name": { "first": "Amy", "last": "Gardner" },
+    "phone": "(352)-179-4627",
+    "hoursStudied": 480,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "172074a2-7467-47fe-95ef-c90d462ffac3",
+    "email": "sofia.hughes@example.com",
+    "name": { "first": "Sofia", "last": "Hughes" },
+    "phone": "(010)-743-5441",
+    "hoursStudied": 77,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "d891d800-e8ea-40e3-b851-86d3ea605813",
+    "email": "daniel.johnston@example.com",
+    "name": { "first": "Daniel", "last": "Johnston" },
+    "phone": "(495)-287-6435",
+    "hoursStudied": 756,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "f840e9a2-8c93-4830-95e2-9b619878ca4f",
+    "email": "keith.lambert@example.com",
+    "name": { "first": "Keith", "last": "Lambert" },
+    "phone": "(358)-044-5440",
+    "hoursStudied": 91,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "3a7e89ee-d27f-4915-b3d8-715880a49d40",
+    "email": "leah.bates@example.com",
+    "name": { "first": "Leah", "last": "Bates" },
+    "phone": "(033)-584-2997",
+    "hoursStudied": 912,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "0cf2a0dc-ef54-4cc1-b635-982d16c2eaeb",
+    "email": "stephanie.shelton@example.com",
+    "name": { "first": "Stephanie", "last": "Shelton" },
+    "phone": "(347)-254-7203",
+    "hoursStudied": 834,
+    "primaryGroup": "important people"
+  },
+  {
+    "id": "f46dd5f8-66e9-4080-bad6-0a0e39339ac9",
+    "email": "brandon.fleming@example.com",
+    "name": { "first": "Brandon", "last": "Fleming" },
+    "phone": "(708)-338-7223",
+    "hoursStudied": 290,
+    "primaryGroup": "important people"
+  }
+]

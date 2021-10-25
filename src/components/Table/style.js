@@ -4,7 +4,8 @@ export const StyledTable = styled.table`
   border-collapse: collapse;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
-  margin: 30px auto;
+  margin: 30px 0;
+  width: 100%;
 
   & thead {
     background-color: var(--main-color);

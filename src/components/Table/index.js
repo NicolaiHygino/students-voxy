@@ -7,18 +7,16 @@ const StudentRow = ({ student: {
   primaryGroup,
   phone,
   hoursStudied,
-}}) => {
-  return (
-    <tr>
-      <td>{email}</td>
-      <td>{name.first}</td>
-      <td>{name.last}</td>
-      <td>{primaryGroup}</td>
-      <td>{phone}</td>
-      <td>{hoursStudied}</td>
-    </tr>
-  );
-};
+}}) => (
+  <tr>
+    <td>{email}</td>
+    <td>{name.first}</td>
+    <td>{name.last}</td>
+    <td>{primaryGroup}</td>
+    <td>{phone}</td>
+    <td>{hoursStudied}</td>
+  </tr>
+);
 
 const Table = ({ students }) => {
   return (

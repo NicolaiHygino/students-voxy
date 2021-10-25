@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyledTable } from './style';
 
-const StudentRow = ({ student: {
+const StudentRow = ({
   email,
   name,
   primaryGroup,
   phone,
   hoursStudied,
-}}) => (
+}) => (
   <tr>
     <td>{email}</td>
     <td>{name.first}</td>
@@ -32,7 +32,7 @@ const Table = ({ students }) => {
         </tr>
       </thead>
       <tbody>
-        {students.map(student => <StudentRow key={student.id} student={student} />)}
+        {students.map(student => <StudentRow key={student.id} {...student} />)}
       </tbody>
     </StyledTable>
   );

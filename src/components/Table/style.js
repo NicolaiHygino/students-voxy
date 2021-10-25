@@ -14,15 +14,19 @@ export const StyledTable = styled.table`
 
   & th {
     font-weight: 400;
-    padding: .8em;
+    padding: .8em 1em;
     text-align: left;
   }
 
   & td {
-    padding: .5em .9em;
+    padding: .5em 1em;
     text-align: left;
     font-size: .9em;
     color: #333;
+  }
+  
+  & tr td:last-child, th:last-child {
+    text-align: right;
   }
 
   & tr:nth-child(even) {

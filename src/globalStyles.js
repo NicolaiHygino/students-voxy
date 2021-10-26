@@ -11,6 +11,11 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  *:focus {
+    outline: 1px solid var(--main-color);
+    outline-offset: 0;
+  }
+
   html, body {
     padding: 0;
     margin: 0;

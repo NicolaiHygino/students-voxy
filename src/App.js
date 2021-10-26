@@ -6,7 +6,9 @@ import styled from 'styled-components';
 
 const Content = styled.section`
   max-width: 1000px;
-  margin: 30px auto;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
 `;
 
 function App() {

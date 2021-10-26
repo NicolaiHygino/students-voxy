@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const TableWrapper = styled.div`
+  overflow: scroll;
+`;
+
 export const StyledTable = styled.table`
   border-collapse: collapse;
   border-radius: 10px 10px 0 0;

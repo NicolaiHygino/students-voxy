@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const TableWrapper = styled.div`
-  overflow: scroll;
+  overflow-x: scroll;
 `;
 
 export const StyledTable = styled.table`

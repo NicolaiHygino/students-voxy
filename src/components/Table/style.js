@@ -25,6 +25,13 @@ export const StyledTable = styled.table`
     color: #333;
   }
   
+  & tr th:last-child {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: right;
+  }
+
   & tr td:last-child, th:last-child {
     text-align: right;
   }

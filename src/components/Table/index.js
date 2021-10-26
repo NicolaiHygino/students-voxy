@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyledTable } from './style';
+import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai';
 
 const StudentRow = ({
   email,
@@ -18,7 +19,7 @@ const StudentRow = ({
   </tr>
 );
 
-const Table = ({ students }) => {
+const Table = ({ students, reverse, setReverse }) => {
   return (
     <StyledTable>
       <thead>
@@ -28,11 +29,16 @@ const Table = ({ students }) => {
           <th>Last Name</th>
           <th>Primary Group</th>
           <th>Phone</th>
-          <th>Hours Studied</th>
+          <th onClick={() => setReverse(!reverse)}>
+            Hours Studied
+            {reverse ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}
+          </th>
         </tr>
       </thead>
       <tbody>
-        {students.map(student => <StudentRow key={student.id} {...student} />)}
+        {students.map(student => 
+          <StudentRow key={student.id} {...student} />
+        )}
       </tbody>
     </StyledTable>
   );

@@ -12,12 +12,21 @@ const Content = styled.section`
 function App() {
   const [students, setStudents] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [reverse, setReverse] = useState(false);
 
-  const filteredStudents = students.filter(({name}) => {
-    const fullname = `${name.first} ${name.last}`.toLowerCase();
-    return fullname.includes(searchTerm.toLowerCase());
-  });
+  const filteredStudents = students
+    .filter(({name}) => {
+      const fullname = `${name.first} ${name.last}`.toLowerCase();
+      return fullname.includes(searchTerm.toLowerCase());
+    })
+    .sort((a, b) => {
+      if (a.hoursStudied > b.hoursStudied) return 1;
+      if (b.hoursStudied > a.hoursStudied) return -1;
 
+      return 0;
+    });
+  reverse && filteredStudents.reverse();
+  
   useEffect(() => {
     axios.get('students.json').then(({data}) => {
       setStudents(data);
@@ -30,7 +39,11 @@ function App() {
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm} 
       />
-      <Table students={filteredStudents}/>
+      <Table
+        students={filteredStudents}  
+        reverse={reverse}
+        setReverse={setReverse}
+      />
     </Content>
   );
 }
